@@ -6,7 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Terminal Definition Management';
   navLinks = [{
     label: 'Create Terminal',
     path: './tdmadd',
@@ -20,11 +19,6 @@ export class AppComponent {
     label: 'Delete Terminal',
     path: './tdmdelete',
     index: 2
-  },
-  {    
-    label: 'Display Terminal',
-    path: './tdmdelete',
-    index: 3
   }];
   constructor() { }
   ngOnInit() {
